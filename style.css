@@ -226,6 +226,36 @@ main{
     height: 427px;
     margin-left: 69px;
 }
+
+/* ------------css for gallery section-------------- */
+.copa-gallery{
+    margin-bottom: 150px;
+    flex-direction: column;
+    align-items: center;
+}
+.copa-gallery h1{
+    font-size: 44px;
+    line-height: 80px;
+    font-weight: bold;
+    border-bottom: 5px solid black;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.gallery{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 5px;
+    grid-column-gap: 8px;
+    margin-top: 25px;
+}
+.gallery div{
+
+}
+.gallery div img{
+    height: 200px;
+    width: 260px;
+}
+
 /* ------------css for email section-------------- */
 .email-sec{
     margin-bottom: 158px;
@@ -243,9 +273,6 @@ main{
     font-size: 1.2em;
     font-weight: bold;
 }
-/* .email-container input[type="email"]:hover{
-    border-color: #E02C6D;
-} */
 .email-container .email-link{
     text-decoration: none;
     margin-top: 15px;
