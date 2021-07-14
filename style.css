@@ -49,7 +49,7 @@ nav{
     /* border: 2px solid white; */
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 67px;
+    /* margin-bottom: 67px; */
 }
 nav ul{
     /* border: 1px solid white; */
@@ -80,14 +80,17 @@ nav ul li a{
     justify-content: space-between;
 }
 .banner-title{
-    width: 50%;
+    /* width: 50%; */
     /* border: 2px solid white; */
 }
 .banner-title h1{
     font-size: 64px;
     line-height: 80px;
+    font-weight: bold;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-right: 102px;
+    margin-top: 121px;
 }
 .banner-title .banner-button{
     display: flex;
@@ -102,14 +105,16 @@ nav ul li a{
     align-items: center;
     justify-content: space-around;
     margin-top: 27px;
+    margin-bottom: 169px;
 }
 .banner-image{
-    width: 50%;
+    /* width: 50%; */
     /* margin-left: 90px; */
     /* border: 2px solid white; */
+    margin-top: 67px;
 }
 .banner-image:hover{
-    transform: translate(70px) scale(1.2);
+    transform: translateY(30px) scale(1.2);
     transition: transform .9s ease-out;
 }
 .banner-image img{
@@ -240,4 +245,6 @@ footer{
 }
 .footer-detail .footer-social{
     margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 24px;
 }
