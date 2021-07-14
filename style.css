@@ -6,8 +6,6 @@ body{
 }
 .flex-container{
     display: flex;
-    /* width: 1160px; */
-    /* height: 44px; */
 }
 .grid-container{
     display: grid;
@@ -46,15 +44,11 @@ header{
     margin-bottom: 70px;
 }
 nav{
-    /* border: 2px solid white; */
     justify-content: space-between;
     align-items: center;
-    /* margin-bottom: 67px; */
 }
 nav ul{
-    /* border: 1px solid white; */
     list-style-type: none;
-    /* justify-content: space-around; */
 }
 nav ul li{
     padding-top: 10px;
@@ -68,11 +62,6 @@ nav ul li a{
     font-size: 16px;
     line-height: 24px;
 }
-.login{
-    /* padding: 10px 24px; */
-    /* align-items: center;
-    justify-content: space-between; */
-}
 .top-banner{
     margin-top: 0px;
 }
@@ -80,8 +69,6 @@ nav ul li a{
     justify-content: space-between;
 }
 .banner-title{
-    /* width: 50%; */
-    /* border: 2px solid white; */
     margin-right: 99px;
 }
 .banner-title h1{
@@ -107,13 +94,10 @@ nav ul li a{
     margin-bottom: 169px;
 }
 .banner-image{
-    /* width: 50%; */
-    /* margin-left: 90px; */
-    /* border: 2px solid white; */
     margin-top: 67px;
 }
 .banner-image:hover{
-    transform: translateY(30px) scale(1.2);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
     transition: transform .9s ease-out;
 }
 .banner-image img{
@@ -123,7 +107,6 @@ nav ul li a{
 /* ------------css for main-------------- */
 main{
     background-color: #FFFFFF;
-    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,26 +115,19 @@ main{
 /* --------------css for players----------------- */
 .players{
     width: 1050px;
-    /* height: 447px; */
-    /* border: 2px solid blue; */
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 27px;
 }
 .player{
-    width: 330px;
-    height: 474px;
-    /* border: 2px solid tomato; */
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
+    width: 330px;
+    height: 474px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-}
-.player-detail{
-    /* margin-left: 14px; */
 }
 .player-detail img{
     width: 300px;
@@ -160,10 +136,7 @@ main{
 }
 .player-info{
     margin: 16px 15px 0px 15px;
-    /* margin-bottom: 33px; */
     width: 300px;
-    /* height: 154px; */
-    /* height: 160px; */
     margin-bottom: 33px;
 }
 .player-info h1{
@@ -175,7 +148,6 @@ main{
 }
 /* ------------css for highlights-------------- */
 .highlights{
-    /* border: 2px solid tomato; */
     margin-top: 165px;
     justify-content: flex-start;
     margin-bottom: 150px;
@@ -183,7 +155,6 @@ main{
 .high-detail{
     width: 466px;
     height: 309px;
-    /* border: 1px solid green; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -217,9 +188,6 @@ main{
     justify-content: space-around;
     margin-top: 0px;
     margin-right: 293px;
-}
-.high-image{
-    /* border: 1px solid blue; */
 }
 .high-image img{
     width: 567px;
@@ -264,7 +232,6 @@ main{
 /* ------------css for email section-------------- */
 .email-sec{
     margin-bottom: 158px;
-    /* border: 2px solid tomato; */
 }
 .email-container{
     display: flex;
@@ -318,3 +285,65 @@ footer{
     text-decoration: none;
     color: gray;
 }
+
+/* ------------media queires-------------- */
+@media only screen and (max-width: 688px) {
+    body{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-container{
+        display: none;
+    }
+    .top-banner{
+        width: 100%;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-title{
+
+    }
+    .banner-title h1{
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .banner-image img{
+        width: 329px;
+        height: 259.17px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .highlights{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .high-detail{
+        width: 328px;
+        height: 248px;
+    }
+    .high-image{
+        margin-top: 150px;
+    }
+    .high-image img{
+        width: 328px;
+        height: 248px;
+    }
+    .gallery{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .email-sec{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+}
+    
