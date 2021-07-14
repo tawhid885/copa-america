@@ -82,15 +82,14 @@ nav ul li a{
 .banner-title{
     /* width: 50%; */
     /* border: 2px solid white; */
+    margin-right: 99px;
 }
 .banner-title h1{
     font-size: 64px;
     line-height: 80px;
     font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 102px;
     margin-top: 121px;
+    margin-bottom: 0px;
 }
 .banner-title .banner-button{
     display: flex;
