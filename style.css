@@ -25,6 +25,12 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+.fa-arrow-right{
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10.4px;
+}
 
 /* ------------css for header-------------- */
 header{
@@ -106,7 +112,8 @@ main{
     background-color: #FFFFFF;
     /* border: 2px solid green; */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* --------------css for players----------------- */
@@ -154,4 +161,56 @@ main{
     margin-top: 10px;
 }
 /* ------------css for highlights-------------- */
+.highlights{
+    /* border: 2px solid tomato; */
+    margin-top: 165px;
+    justify-content: flex-start;
+    margin-bottom: 158px;
+}
+.high-detail{
+    width: 466px;
+    height: 309px;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+}
+.high-detail h1{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.high-detail p{
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    margin-right: 62px;
+}
+.high-detail .high-button{
+    display: flex;
+    text-decoration: none;
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 24px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0px;
+    margin-right: 293px;
+}
+.high-image{
+    /* border: 1px solid blue; */
+}
+.high-image img{
+    width: 567px;
+    height: 427px;
+    margin-left: 69px;
+}
 /* ------------css for footer-------------- */
