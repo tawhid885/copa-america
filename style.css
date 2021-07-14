@@ -178,7 +178,7 @@ main{
     /* border: 2px solid tomato; */
     margin-top: 165px;
     justify-content: flex-start;
-    margin-bottom: 158px;
+    margin-bottom: 150px;
 }
 .high-detail{
     width: 466px;
@@ -226,6 +226,41 @@ main{
     height: 427px;
     margin-left: 69px;
 }
+/* ------------css for email section-------------- */
+.email-sec{
+    margin-bottom: 158px;
+    /* border: 2px solid tomato; */
+}
+.email-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email-container input[type="email"]{
+    padding: 24px;
+    width: 435px;
+    border: 2px solid #E02C6D;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+/* .email-container input[type="email"]:hover{
+    border-color: #E02C6D;
+} */
+.email-container .email-link{
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700px;
+    border: none;
+}
+.fa-envelope{
+    margin-right: 10px;
+    font-size: 1.2em;
+}
 /* ------------css for footer-------------- */
 footer{
     justify-content: center;
@@ -246,4 +281,8 @@ footer{
     margin-bottom: 20px;
     font-size: 18px;
     line-height: 24px;
+}
+.footer-social a{
+    text-decoration: none;
+    color: gray;
 }
