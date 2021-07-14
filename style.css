@@ -288,8 +288,8 @@ footer{
 
 /* ------------media queires-------------- */
 @media only screen and (max-width: 688px) {
-
     header{
+        display: block;
         width: 100%;
         padding-left: 0px;
         padding-right: 0px;
@@ -299,29 +299,29 @@ footer{
     }
     .top-banner{
         width: 100%;
+        margin-left: 16px;
     }
     .banner-container{
+        display: block;
         flex-direction: column;
-    }
-    .banner-title{
-
     }
     .banner-title h1{
         font-weight: bold;
         font-size: 36px;
         line-height: 50px;
+        margin-top: 0;
+    }
+    .banner-image{
+        margin-bottom: 60px;
     }
     .banner-image img{
         width: 329px;
         height: 259.17px;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 0px;
     }
     .players{
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 120px;
+        margin-left: 30px;
     }
     .highlights{
         flex-direction: column;
@@ -345,13 +345,7 @@ footer{
         margin-right: 0px;
     }
     .gallery{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .email-sec{
-        /* width: 80%; */
-        /* background-color: red; */
-
+        grid-template-columns: repeat(1, 1fr);
     }
     .email-container{
         width: 329px;
@@ -359,14 +353,9 @@ footer{
     }
     .email-container input[type="email"]{
         width: 300px;
-        /* background-color: red; */
     }
     footer{
         width: 100%;
-        /* background-color: red; */
-    }
-    .footer-detail{
-
     }
     .footer-detail img{
         width: 266px;
