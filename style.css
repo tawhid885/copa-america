@@ -245,15 +245,20 @@ main{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-row-gap: 5px;
-    grid-column-gap: 8px;
+    grid-column-gap: 10px;
     margin-top: 25px;
 }
 .gallery div{
-
+    overflow: hidden;
 }
 .gallery div img{
     height: 200px;
     width: 260px;
+}
+.gallery div:hover{
+    transform: scale(1.05);
+    transition: transform 1s ease-out;
+
 }
 
 /* ------------css for email section-------------- */
